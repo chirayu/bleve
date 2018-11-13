@@ -43,6 +43,7 @@ type indexImpl struct {
 	m     mapping.IndexMapping
 	mutex sync.RWMutex
 	open  bool
+	//CP: Maintaining usage stats is a cool idea
 	stats *IndexStat
 }
 

@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//CP : File reviewed. Nothing significant here
+
 package bleve
 
 import (
@@ -20,6 +22,7 @@ import (
 	"sync/atomic"
 )
 
+// CP IndexStat is a simple stat implementation. Useful to only derive average and count values
 type IndexStat struct {
 	searches   uint64
 	searchTime uint64
